@@ -1,11 +1,120 @@
 
-
-
+import img from'../../assets/rasm.png'
+import opala from'../../assets/opala.png'
+import ayti from'../../assets/ayti.png'
+import   oka   from'../../assets/oka.png'
+import   brat  from'../../assets/brat.png'
+import   BMW from'../../assets/BMW.png'
 function Advantages() {
     return (
         <div>
-            <h2>Advantages</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at facilis dolor corrupti nesciunt repellendus non, perferendis, vitae deleniti asperiores nemo omnis voluptates commodi possimus earum debitis, cumque similique iste ducimus natus enim odio. Explicabo sunt quibusdam cum doloribus repellendus saepe maxime, eligendi cupiditate natus culpa aspernatur voluptatem, minus esse obcaecati, enim molestias dolore veniam. Neque iure, aperiam perspiciatis culpa assumenda suscipit accusamus ex debitis quae quaerat nesciunt corporis voluptatem eius vero saepe molestiae natus! Error hic ullam ex excepturi sed, accusantium, maiores vero eaque neque alias molestias natus! Quisquam facilis blanditiis ipsa tempore at dicta, saepe iure error facere.</p>
+         <div className='box'>
+            
+         <div className="surqash">
+            
+              
+            <img src={img} alt="" />
+             <h1> Лучшие характеристики в классе</h1>
+            
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+             </div>
+             
+             <div className="surqash">
+           
+           
+            <img src={opala} alt="" />
+             <h1> Высокая надежность оборудования</h1>
+            
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+             </div>
+
+             <div className="surqash">
+           
+           
+            <img src={ayti} alt="" />
+             <h1> Низкая стоимость владения</h1>
+            
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+             </div>
+             <div className="surqash">
+            
+            
+            <img src={oka} alt="" />
+             <h1>Цены ниже, чем у аналогов</h1>
+             
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+          
+             </div>
+
+             <div className="surqash">
+            
+            
+            <img src={brat} alt="" />
+             <h1> Совершенная производительность</h1>
+             
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+          
+             </div>
+
+             
+             <div className="surqash">
+            
+            
+            <img src={BMW} alt="" />
+             <h1> Абсолютные лидеры по количеству инноваций</h1>
+             
+          <p>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+          
+          
+             </div>
+            
+            
+             
+         </div>
+
+      <div className='nnn'>
+      <hr />
+      <br />
+      <h2>Бренд TRUE Fitness входит в TOП 5 крупнейших производителей фитнес оборудования</h2>
+      <br />
+      <hr />
+      </div>
+
+   <br />
+   <br />
+
+      <main>
+       <div className='hhh'>
+        <br />
+        <h6>TRUE FITNESS</h6>
+        <br />
+        <h3>Получите <span>эксклюзивное предложение</span> на тренажеры <span>TRUE FITNESS</span></h3>
+   <br />
+   <h5>Мы будем рады проконсультировать Вас и помочь с подбором оборудования</h5>
+   <br />
+   <br />
+        <input placeholder='имя' type="text" />
+        <input placeholder='+998 (99)-999-99-99' type="text" />
+        <input placeholder='e-mail' type="text" />
+   
+         <button>отправить</button>
+          <br />
+          <br />
+             
+              <h4>«Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности»</h4>
+          
+         <br /> 
+         <br />
+         <br />
+       </div>
+      </main>
+      
+
         </div>
     );
 }
